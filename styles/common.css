@@ -1,0 +1,22 @@
+/* Здесь описаны общие правила, используемые во всех файлах */
+
+.container {
+    width: 1020px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+  
+.row {
+    margin-left: -20px;
+    margin-right: -20px;
+    font-size: 0;
+}
+  
+  
+[class*="col-"] {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: top;
+}

@@ -1,0 +1,53 @@
+@media (min-width: 1120px) {
+    .container {
+        width: 1020px;
+    }
+
+    .col-desktop-4 {
+      width: 100%;
+    }
+    
+    .col-desktop-3 {
+      width: 75%;
+    }
+    
+    .col-desktop-2 {
+      width: 50%;
+    }
+    
+    .col-desktop-1 {
+      width: 25%;
+    }
+
+    /* Это особый контейнер, который
+    представляет собой очень тонкий инструент.
+    Его логика в том, чтобы на этапе десктопа
+    убрать левый падинг у навигации, дабы
+    выравнять его по одной линии с контентом
+    левой полосы контента
+    */
+    .destop-rezero-padding-l {
+      padding-left: 0;
+    }
+
+    .destop-rezero-padding-r {
+      padding-right: 0;
+    }
+
+    .destop-align-right {
+      text-align: right;
+    }
+
+    .destop-align-left {
+      text-align: left;
+    }
+
+    .nav-item {
+      padding-top: 74px;
+      padding-bottom: 74px;
+    }
+
+    .logo-container {
+      margin-top: 60px;
+    }
+}

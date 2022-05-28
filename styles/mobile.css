@@ -1,0 +1,283 @@
+/* mobile->First */
+/*  Поскольку у меня
+    используется подход mobie-first,
+    необходимо начать с общих правил 
+    для мобильного разрешения
+ */
+
+.container {
+    width: 100%;
+}
+
+.col-mobile-4 {
+    width: 100%;
+}
+  
+.col-mobile-3 {
+    width: 75%;
+}
+  
+.col-mobile-2 {
+    width: 50%;
+}
+  
+.col-mobile-1 {
+    width: 25%;
+}
+
+.header, .main, .articles {
+    background-color: white;
+}
+
+.nav-item {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #626262;
+    font-size: 16px;
+
+    display: inline-block;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.nav, .logo-container {
+    text-align: center;
+}
+
+.logo-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+
+    margin-top: 120px;
+    margin-bottom: 30px;
+    vertical-align: top;
+}
+
+.h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: #b9b2a4;
+    font-size: 14px;
+
+    margin-top: 80px;
+    vertical-align: top;
+}
+
+.h3, .h4, .article-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    text-align: center;
+    color: #626262;
+    font-size: 28px;
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+
+.article-title {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.h4 {
+    font-size: 24px;
+    padding: 30px 0;
+}
+
+.main-text {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #626262;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.img-with-description {
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.img-positioned-container {
+  max-width: 420px;
+  height: 280px;  
+
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: 50% 40%;
+  
+  position: relative;
+}
+
+.girl {
+    background-image: url('/assets/girl.png');
+}
+
+.coffee {
+    background-image: url('/assets/coffee.png');
+}
+
+.two-girls {
+    background-image: url('/assets/two-girls.png');
+}
+
+.man {
+    background-image: url('/assets/man.png');
+}
+
+.ticket {
+    max-width: 370px;
+    height: 60px;
+    background-color:#eeedec;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #272522;
+    padding: 22px 112px; 
+    text-transform: uppercase;
+    
+    position: absolute;
+    top: 28px;
+    left: 0px;
+}
+
+.load-more-container {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #626262;
+    font-size: 20px;
+    max-width: 160px;
+    border: 1px solid #626262;
+    padding: 20px 35px;
+
+    margin: 30px auto;
+}
+
+.load-more-container:hover {
+    cursor: pointer;
+}
+
+.special {
+    margin-top: 10px;
+}
+
+.sub-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.6;
+
+    margin-bottom: 80px;
+}
+
+.logo {
+    max-width: 100%;
+}
+
+.paralx {
+    background-color: white;
+}
+
+.paralx-window {
+    background-image: url('/assets/paralax.png');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: 50% 40%;
+}
+
+.sign-up-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: #333333;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.sign-up, .footer {
+    background-color: #f0f0f0;
+}
+
+.mobile-align-left {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.mobile-align-center {
+    text-align: center;
+}
+
+.arrow-container {
+    text-align: right;
+    margin-top: 28px;
+}
+
+.custom-hr-line {
+    color: black;
+    /* height: 1px; */
+    border-top: 1px solid black;
+    margin: 10px 0;
+    margin-bottom: 80px;
+}
+
+.article-block {
+    margin-top: 80px;
+}
+
+.article-image {
+    max-width: 100%;
+}
+
+.additional-margin {
+    margin-bottom: 80px;
+}
+
+.footer-items-block {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.footer-items {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: black;
+
+    display: block;
+    margin: 10px 0;
+}
+
+.image-link-footer {
+    margin-right: 5px;
+}
+
+.non-decoration {
+    text-decoration: none;
+}
+
+.images-links-container {
+    text-align: center;
+}
+
+.margin-center {
+    margin: 0  auto;
+}
+
+.footer-items:hover, .nav-item:hover {
+    color: #b9b2a4;
+}
